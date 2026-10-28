@@ -1,0 +1,28 @@
+# ---- ModelSim 编译产物 ----
+work/
+uvm_lib/
+transcript
+*.wlf
+*.vcd
+*.vstf
+tr_db.log
+
+# ---- 仿真输出（本地生成）----
+sim/logs/
+sim/wave/
+
+# ---- VCS 仿真产物 ----
+vcs/sim/*.log
+simv*
+*.fsdb
+*.daidir
+csrc/
+ucli.key
+inter.vpd
+DVEfiles/
+*.vpd
+simv.vdb
+urgReport/
+coverage_latest/
+AN.DB
+novas.*
